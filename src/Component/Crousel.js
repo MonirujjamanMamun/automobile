@@ -1,37 +1,41 @@
-import React from 'react';
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import bull1 from "../images/bull1.png";
+import bull2 from "../images/bull2.png";
+import bull4 from "../images/bull4.png";
+import bull5 from "../images/bull5.png";
+import bull6 from "../images/bull6.jpg";
+import bull7 from "../images/bull7.jpg";
+
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Crousel = () => {
     return (
-        <div class="carousel w-full h-[700px]">
-            <div id="slide1" class="carousel-item relative w-full">
-                <img src="https://img.freepik.com/free-vector/hand-drawn-motorcycle-isolated-white-background-monochrome-style_1284-38728.jpg?size=626&ext=jpg&uid=R82700266&ga=GA1.2.1730248368.1666899371&semt=sph" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <img src="https://img.freepik.com/free-vector/illustration-motorcycle-red-color_1308-35859.jpg?size=626&ext=jpg&uid=R82700266&ga=GA1.2.1730248368.1666899371&semt=sph" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide3" class="carousel-item relative w-full">
-                <img src="https://img.freepik.com/free-photo/beautiful-brave-woman-is-leaning-her-motobike-tunnel-she-is-holding-helmet_613910-20823.jpg?size=626&ext=jpg&uid=R82700266&ga=GA1.2.1730248368.1666899371&semt=sph" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <img src="https://placeimg.com/800/200/arch" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-        </div>
+        <>
+            <Swiper
+                spaceBetween={30}
+                centeredSlides={true}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
+                pagination={{
+                    clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation]}
+                className="mySwiper sm:w-auto md:w-auto lg:w-auto lg:h-auto"
+            >
+                <SwiperSlide><img className="w-screen h-screen" src={bull1} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="w-screen h-screen" src={bull2} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="w-screen h-screen" src={bull4} alt="" /></SwiperSlide>
+                <SwiperSlide><img className="w-screen h-screen" src={bull5} alt="" /></SwiperSlide>
+
+            </Swiper>
+        </>
     );
 };
 

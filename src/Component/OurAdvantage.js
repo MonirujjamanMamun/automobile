@@ -5,10 +5,10 @@ import log3 from '../images/logo-3.png';
 
 const OurAdvantage = () => {
     return (
-        <div className='container mx-auto'>
-            <div className='text-center my-4'>
+        <div className='container mx-auto mt-10'>
+            <div className='text-center my-10'>
                 <img className='mx-auto' width={90} src='https://www.anjuliroyalenfield.com/logoo.jpeg' />
-                <h1 className='text-3xl text-white'>Our Advantages</h1>
+                <h1 className='text-3xl text-black font-bold'>Our Advantages</h1>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>

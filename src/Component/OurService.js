@@ -8,10 +8,11 @@ import service6 from '../images/service-logo-6.png';
 
 const OurService = () => {
     return (
-        <div className='container mx-auto'>
-            <div className='text-center my-4'>
+        <div className='container mx-auto mt-4'>
+            <div className='text-center my-10'>
                 <img className='mx-auto' width={90} src='https://www.anjuliroyalenfield.com/logoo.jpeg' />
-                <h1 className='text-3xl text-white'>Our Service</h1>
+                <h1 className='text-3xl text-black font-bold'>Our Service</h1>
+
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
@@ -22,7 +23,7 @@ const OurService = () => {
                     <p>You can book your bike online with minimum amount of Rs 10,000/- Get payment confirmation invoice on your E-mail.</p>
                 </div>
                 {/* card-2 */}
-                <div className='bg-white text-center rounded-md text-black p-9 border-b-8 border-black'>
+                <div className='bg-white text-center rounded-md text-black p-9 border-b-8 border-gray-400'>
                     <img width={70} className='mx-auto p-3 my-3' src={service2} />
                     <h3 className='text-2xl mb-2 font-bold'>PICK UP & DROP FACILITY</h3>
                     <p>Your bike needs servicing, do not waste time! Call us for servicing and Get the pick and drop facility at home.</p>
@@ -41,7 +42,7 @@ const OurService = () => {
                         Just give us a call.</p>
                 </div>
                 {/* card-5  */}
-                <div className='bg-gray-100 text-center rounded-md text-black p-3'>
+                <div className='bg-white text-center rounded-md text-black p-3 border-b-8 border-gray-400'>
                     <img width={70} className='mx-auto p-3 my-3' src={service4} />
                     <h3 className='text-2xl mb-2 font-bold'>FREE TEST RIDE AT HOME</h3>
                     <p>Want a Test Ride but do not have time to visit!

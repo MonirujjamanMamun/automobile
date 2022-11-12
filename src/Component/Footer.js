@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 text-white bg-[#20262f]">
+        <footer className="footer p-10 text-white bg-[#20262f] mt-20">
             <div className='text-center'>
                 <img width="60" height="60" viewBox="0 0 24 24" className="mx-auto rounded-sm" src='https://www.anjuliroyalenfield.com/logoo.jpeg' />
                 <p className='text-lg'>Anjuli Automobiles Pvt Ltd.<br />Providing reliable tech since 2001</p>
             </div>
-            <div>
+            <div className='sm:mx-auto'>
                 <span className="text-lg text-white uppercase font-black">Services</span>
                 <Link to={'#'} className="">ONLINE BOOKING</Link>
                 <Link to={'#'}>REFUNDABLE BOOKING AMOUNT</Link>
@@ -28,6 +28,11 @@ const Footer = () => {
                 <Link to={'#'}>TERMS OF USE</Link>
                 <Link to={'#'}>PRIVACY POLICY</Link>
                 <Link to={'#'}>COOKIE POLICY</Link>
+            </div>
+            <div>
+                <div>
+                    <p className="text-lg text-white uppercase font-black">Copyright © 2022 - All right reserved by Anjuli AutoMobiles Pvt Ltd.</p>
+                </div>
             </div>
         </footer>
     );
