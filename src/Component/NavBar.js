@@ -35,11 +35,11 @@ const NavBar = () => {
                 </div>
                 <div className="hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
-                        {/* {menuItem} */}
-                        <li><Link className='font-bold text-lg text-white' to='/'>HOME</Link></li>
+                        {menuItem}
+                        {/* <li><Link className='font-bold text-lg text-white' to='/'>HOME</Link></li>
                         <li><Link className='font-bold text-lg text-white' to='/shop'>SHOP</Link></li>
                         <li><Link className='font-bold text-lg text-white' to='/news'>NEWS</Link></li>
-                        <li><Link className='font-bold text-lg text-white' to='/contact'>CONTACT</Link></li>
+                        <li><Link className='font-bold text-lg text-white' to='/contact'>CONTACT</Link></li> */}
                     </ul>
                 </div>
             </div>
