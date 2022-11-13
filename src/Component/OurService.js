@@ -52,7 +52,7 @@ const OurService = () => {
                     className='bg-gray-100 text-center rounded-md text-black p-3'>
                     <img width={70} className='mx-auto p-3 my-3' src={service5} />
                     <h3 className='text-2xl mb-2 font-bold'>HOME BOOKING & DELIVER</h3>
-                    <p>Can’t visit showroom or no time to pick your bike. Get your booking and delivery done at home.
+                    <p>Can not visit showroom or no time to pick your bike. Get your booking and delivery done at home.
                         Just give us a call.</p>
                 </div>
                 {/* card-5  */}

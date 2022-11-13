@@ -25,28 +25,28 @@ const OurProducts = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                 {/* card 1 */}
                 <div data-aos="fade-right" data-aos-duration="3000"
-                    className='bg-gray-100 text-center rounded-md text-black p-9 animate__animated animate__slideInLeft'>
+                    className='bg-gray-100 text-center rounded-md text-black p-9'>
                     <img className='mx-auto p-3 my-3 rounded-md' src={bull1} />
                     <h3 className='text-2xl mb-2 font-bold'>Royal Enfield</h3>
                     <p>Royal Enfield is one of the oldest surviving motorcycle manufacturers in the world. Established in 1901.</p>
                 </div>
                 {/* card 2 */}
                 <div data-aos="zoom-in-up" data-aos-duration="3000"
-                    className='bg-white text-center rounded-md text-black p-9 border-b-8 border-gray-400 animate__animated'>
+                    className='bg-white text-center rounded-md text-black p-9 border-b-8 border-gray-400'>
                     <img className='mx-auto p-3 my-3' src={bull2} />
                     <h3 className='text-2xl mb-2 font-bold'>Royal Enfield Bullet 350X</h3>
                     <p>Royal Enfield is one of the oldest surviving motorcycle manufacturers in the world. Established in 1901.</p>
                 </div>
                 {/* card 3 */}
                 <div data-aos="zoom-in-up" data-aos-duration="3000"
-                    className='bg-white text-center rounded-md text-black p-3 border-b-8 border-gray-400 animate__animated'>
+                    className='bg-white text-center rounded-md text-black p-3 border-b-8 border-gray-400'>
                     <img className='mx-auto p-3 my-3' src={bull4} />
                     <h3 className='text-2xl mb-2 font-bold'>Royal Enfield roars</h3>
                     <p>Royal Enfield is one of the oldest surviving motorcycle manufacturers in the world. Established in 1901.</p>
                 </div>
                 {/* card 4 */}
                 <div data-aos="fade-left" data-aos-duration="3000"
-                    className='bg-gray-100 text-center rounded-md text-black p-3 animate__animated animate__slideInRight'>
+                    className='bg-gray-100 text-center rounded-md text-black p-3'>
                     <img className='mx-auto p-3 my-3' src={bull5} />
                     <h3 className='text-2xl mb-2 font-bold'>Royal Enfield Gray</h3>
                     <p>Royal Enfield is one of the oldest surviving motorcycle manufacturers in the world. Established in 1901.</p>

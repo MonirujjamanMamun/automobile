@@ -35,7 +35,7 @@ const Footer = () => {
 
             </footer>
             <div className='bg-slate-800 py-5 text-center'>
-                <p className="text-lg text-white uppercase font-bold">Copyright © 2022 - All right reserved by Anjuli AutoMobiles Pvt Ltd.</p>
+                <p className="sm:text-sm text-lg text-white uppercase font-bold">Copyright © 2022 - All right reserved by Anjuli AutoMobiles Pvt Ltd.</p>
             </div>
         </>
     );
