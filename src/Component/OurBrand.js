@@ -11,7 +11,8 @@ const OurBrand = () => {
     return (
         <div className='mt-10'>
             {/* card header area  */}
-            <div className='grid md:grid-cols-1 lg:grid-cols-5 gap-x-6 lg:gap-x-0 items-center text-center'>
+            <div data-aos="zoom-in" data-aos-duration="1000"
+                className='grid md:grid-cols-1 lg:grid-cols-5 gap-x-6 lg:gap-x-0 items-center text-center'>
                 <div></div>
                 <div></div>
                 {/* <div></div> */}
@@ -26,34 +27,45 @@ const OurBrand = () => {
             <div className="container my-14 px-6 mx-auto">
                 <section className="mb-32 text-gray-800 text-center">
                     <div className="grid md:grid-cols-2 lg:grid-cols-7 gap-x-6 lg:gap-x-0 items-center">
-                        <div className="mb-12 lg:mb-0 relative">
+                        {/* icon 1 */}
+                        <div data-aos="zoom-in" data-aos-duration="1000"
+                            className="mb-12 lg:mb-0 relative">
                             <img className=" w-24 h-24 text-blue-600 mx-auto mb-6" src={OurBrand1} alt="customers" />
                             <hr className="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
                         </div>
-
-                        <div className="mb-12 lg:mb-0 relative">
+                        {/* icon 2 */}
+                        <div data-aos="zoom-in" data-aos-duration="1000"
+                            className="mb-12 lg:mb-0 relative">
                             <img className="w-24 h-24 mx-auto mb-6 rounded-lg" src={OurBrand2} alt="annualRevenue" />
                             <hr className="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
                         </div>
-
-                        <div className="mb-12 md:mb-0 relative">
+                        {/* icon 3 */}
+                        <div data-aos="zoom-in" data-aos-duration="1000"
+                            className="mb-12 md:mb-0 relative">
                             <img className="w-24 h-24 mx-auto mb-6 rounded-lg" src={OurBrand3} alt="reviews" />
                             <hr className="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
                         </div>
-
-                        <div className="relative">
+                        {/* icon 4 */}
+                        <div data-aos="zoom-in" data-aos-duration="1000"
+                            className="relative">
                             <img className="w-24 h-24 mx-auto mb-6 rounded-lg" src={OurBrand4} alt="tools" />
                             <hr className="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
                         </div>
-                        <div className="relative">
+                        {/* icon 5 */}
+                        <div data-aos="zoom-in" data-aos-duration="1000"
+                            className="relative">
                             <img className="w-24 h-24 mx-auto mb-6 rounded-lg" src={OurBrand5} alt="tools" />
                             <hr className="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
                         </div>
-                        <div className="relative">
+                        {/* icon 6 */}
+                        <div data-aos="zoom-in" data-aos-duration="1000"
+                            className="relative">
                             <img className="w-24 h-24 mx-auto mb-6 rounded-lg" src={OurBrand6} alt="tools" />
                             <hr className="absolute right-0 top-0 w-px bg-gray-200 h-full hidden lg:block" />
                         </div>
-                        <div className="relative">
+                        {/* icon 7 */}
+                        <div data-aos="zoom-in" data-aos-duration="1000"
+                            className="relative">
                             <img className="w-24 h-24 mx-auto mb-6 rounded-lg" src={OurBrand7} alt="tools" />
                         </div>
                     </div>

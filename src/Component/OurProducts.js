@@ -5,11 +5,13 @@ import bull4 from '../images/bull4.png';
 import bull5 from '../images/bull5.png';
 
 
+
 const OurProducts = () => {
     return (
         <div className='container mx-auto'>
             {/* card header area  */}
-            <div className='grid md:grid-cols-1 lg:grid-cols-5 gap-x-6 lg:gap-x-0 items-center text-center'>
+            <div data-aos="zoom-in" data-aos-duration="1000"
+                className='grid md:grid-cols-1 lg:grid-cols-5 gap-x-6 lg:gap-x-0 items-center text-center'>
                 <div></div>
                 <div></div>
                 <div className='my-16 border-b-8 rounded-b-3xl border-gray-400'>
@@ -22,28 +24,32 @@ const OurProducts = () => {
             {/* card area  */}
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                 {/* card 1 */}
-                <div className='bg-gray-100 text-center rounded-md text-black p-9'>
+                <div data-aos="fade-right" data-aos-duration="3000"
+                    className='bg-gray-100 text-center rounded-md text-black p-9 animate__animated animate__slideInLeft'>
                     <img className='mx-auto p-3 my-3 rounded-md' src={bull1} />
-                    <h3 className='text-2xl mb-2 font-bold'>Largest Dealership</h3>
-                    <p>AutoImage is aliquip consequat to duis elit tam cillum dolore fugiat null pariatur excepteur sint for occaecat.</p>
+                    <h3 className='text-2xl mb-2 font-bold'>Royal Enfield</h3>
+                    <p>Royal Enfield is one of the oldest surviving motorcycle manufacturers in the world. Established in 1901.</p>
                 </div>
                 {/* card 2 */}
-                <div className='bg-white text-center rounded-md text-black p-9 border-b-8 border-gray-400'>
+                <div data-aos="zoom-in-up" data-aos-duration="3000"
+                    className='bg-white text-center rounded-md text-black p-9 border-b-8 border-gray-400 animate__animated'>
                     <img className='mx-auto p-3 my-3' src={bull2} />
-                    <h3 className='text-2xl mb-2 font-bold'>Largest Dealership</h3>
-                    <p>AutoImage is aliquip consequat to duis elit tam cillum dolore fugiat null pariatur excepteur sint for occaecat.</p>
+                    <h3 className='text-2xl mb-2 font-bold'>Royal Enfield Bullet 350X</h3>
+                    <p>Royal Enfield is one of the oldest surviving motorcycle manufacturers in the world. Established in 1901.</p>
                 </div>
                 {/* card 3 */}
-                <div className='bg-white text-center rounded-md text-black p-3 border-b-8 border-gray-400'>
+                <div data-aos="zoom-in-up" data-aos-duration="3000"
+                    className='bg-white text-center rounded-md text-black p-3 border-b-8 border-gray-400 animate__animated'>
                     <img className='mx-auto p-3 my-3' src={bull4} />
-                    <h3 className='text-2xl mb-2 font-bold'>Largest Dealership</h3>
-                    <p>AutoImage is aliquip consequat to duis elit tam cillum dolore fugiat null pariatur excepteur sint for occaecat.</p>
+                    <h3 className='text-2xl mb-2 font-bold'>Royal Enfield roars</h3>
+                    <p>Royal Enfield is one of the oldest surviving motorcycle manufacturers in the world. Established in 1901.</p>
                 </div>
                 {/* card 4 */}
-                <div className='bg-gray-100 text-center rounded-md text-black p-3'>
+                <div data-aos="fade-left" data-aos-duration="3000"
+                    className='bg-gray-100 text-center rounded-md text-black p-3 animate__animated animate__slideInRight'>
                     <img className='mx-auto p-3 my-3' src={bull5} />
-                    <h3 className='text-2xl mb-2 font-bold'>Largest Dealership</h3>
-                    <p>AutoImage is aliquip consequat to duis elit tam cillum dolore fugiat null pariatur excepteur sint for occaecat.</p>
+                    <h3 className='text-2xl mb-2 font-bold'>Royal Enfield Gray</h3>
+                    <p>Royal Enfield is one of the oldest surviving motorcycle manufacturers in the world. Established in 1901.</p>
                 </div>
             </div>
             <div className='mb-20 mt-10 text-center'>

@@ -8,6 +8,10 @@ import Contact from './Pages/Contact';
 import DataNotFound from './Pages/DataNotFound';
 import NavBar from './Component/NavBar';
 import Animation from './Component/Animation';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 function App() {
   return (
