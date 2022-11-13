@@ -9,21 +9,20 @@ import OurBrand7 from '../images/ourbrand-7.png';
 
 const OurBrand = () => {
     return (
-        <div>
-
+        <div className='mt-10'>
+            {/* card header area  */}
             <div className='grid md:grid-cols-1 lg:grid-cols-5 gap-x-6 lg:gap-x-0 items-center text-center'>
                 <div></div>
                 <div></div>
                 {/* <div></div> */}
-                <div className='border-b-8 border-gray-600'>
-                    <img className='mx-auto' width={90} src='https://www.anjuliroyalenfield.com/logoo.jpeg' />
-                    <h1 className='text-3xl text-black font-bold my-1'>Our Brands</h1>
+                <div className='border-b-8 rounded-b-3xl border-gray-400 my-16'>
+                    <img className='mx-auto' width={130} src='https://www.anjuliroyalenfield.com/logoo.jpeg' />
+                    <h1 className='text-3xl text-black font-bold mt-2 mb-4'>Our Brands</h1>
                 </div>
                 <div></div>
                 <div></div>
-
             </div>
-
+            {/* card area  */}
             <div className="container my-14 px-6 mx-auto">
                 <section className="mb-32 text-gray-800 text-center">
                     <div className="grid md:grid-cols-2 lg:grid-cols-7 gap-x-6 lg:gap-x-0 items-center">

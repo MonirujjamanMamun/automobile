@@ -7,8 +7,7 @@ import bull1 from "../images/bull1.png";
 import bull2 from "../images/bull2.png";
 import bull4 from "../images/bull4.png";
 import bull5 from "../images/bull5.png";
-import bull6 from "../images/bull6.jpg";
-import bull7 from "../images/bull7.jpg";
+
 
 import { Autoplay, Pagination, Navigation } from "swiper";
 
