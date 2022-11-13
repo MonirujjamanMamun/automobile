@@ -14,7 +14,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const Crousel = () => {
     return (
         <>
-            {/* <Swiper
+            <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
@@ -33,7 +33,7 @@ const Crousel = () => {
                 <SwiperSlide><img className="w-screen h-screen" src={bull4} alt="" /></SwiperSlide>
                 <SwiperSlide><img className="w-screen h-screen" src={bull5} alt="" /></SwiperSlide>
 
-            </Swiper> */}
+            </Swiper>
         </>
     );
 };
