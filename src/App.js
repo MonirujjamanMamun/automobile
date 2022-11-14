@@ -16,7 +16,7 @@ AOS.init();
 
 function App() {
   return (
-    <div className="">
+    <>
       <Animation />
       <NavBar />
       <Routes>
@@ -26,7 +26,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='*' element={<DataNotFound />} />
       </Routes>
-    </div>
+    </>
   );
 }
 

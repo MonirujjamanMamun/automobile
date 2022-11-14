@@ -6,7 +6,7 @@ import log3 from '../images/logo-3.png';
 const OurAdvantage = () => {
     return (
         <>
-            <div className='container mx-auto mt-10'>
+            <div className='container mx-auto mt-6'>
                 {/* card header area  */}
                 <div data-aos="zoom-in" data-aos-duration="1000"
                     className='grid md:grid-cols-1 lg:grid-cols-5 gap-x-6 lg:gap-x-0 items-center text-center'>
@@ -14,7 +14,7 @@ const OurAdvantage = () => {
                     <div></div>
                     <div className='my-16 border-b-8 rounded-b-3xl border-gray-400'>
                         <img className='mx-auto' width={130} src='https://www.anjuliroyalenfield.com/logoo.jpeg' />
-                        <h1 className='text-3xl text-black font-bold mt-2 mb-4'>Our Advantages</h1>
+                        <h1 className='text-2xl text-black font-bold mt-2 mb-4'>Our Advantages</h1>
                     </div>
                     <div></div>
                     <div></div>

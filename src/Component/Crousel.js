@@ -1,79 +1,46 @@
-import React, { useRef, useState } from "react";
-// import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-import bull1 from "../images/bull1.png";
-import bull2 from "../images/bull2.png";
-import bull4 from "../images/bull4.png";
-
-
-
-// import { Autoplay, Pagination, Navigation } from "swiper";
-
+import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
 const Crousel = () => {
     return (
         <>
-            {/* <Swiper
-                spaceBetween={30}
-                centeredSlides={true}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
-                pagination={{
-                    clickable: true,
-                }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
-                className="mySwiper sm:w-auto md:w-auto lg:w-auto lg:h-auto"
-            >
-                <SwiperSlide className="z-30">
-                    <div className="bg-buill-one z-20"> hello</div>
-                </SwiperSlide>
-                <SwiperSlide><img className="w-screen h-screen bg-blend-overlay z-0" src={bull2} alt="" /><span className="mt-[-50px] z-10">Hello</span></SwiperSlide>
-                <SwiperSlide><img className="w-screen h-screen bg-blend-overlay" src={bull4} alt="" /></SwiperSlide>
-                <SwiperSlide><img className="w-screen h-screen bg-blend-overlay" src={bull5} alt="" /></SwiperSlide>
-            </Swiper> */}
-
-            <Carousel className="">
-                <Carousel.Item className="mt-[15px]">
+            <Carousel className="mt-[-15px]">
+                <Carousel.Item className="mt-[25px]">
                     <img
-                        className="d-block w-100 opacity-100 "
-                        src={bull1}
+                        className="d-block w-100"
+                        src="https://images.unsplash.com/photo-1481575184241-4754ea78a1bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJsYWNrJTIwbW90b3JjeWNsZSUyMHJpZGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                         alt="First slide"
                     />
-                    <Carousel.Caption className="text-black">
-                        <h3 className="text-3xl font-black">Anjuli Automobiles Pvt. Ltd</h3>
+                    {/* <div className="absolute top-0 left-0 bg-[rgba(0,0,0,0.6)]"></div> */}
+                    <Carousel.Caption className="text-white">
+                        <h3 className="text-3xl font-bold">Anjuli Automobiles Pvt. Ltd</h3>
                         <p className="text-lg">Made like a gun, goes like a bullet.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
-                <Carousel.Item className="mt-[15px]">
+                <Carousel.Item className="mt-[25px] relative">
                     <img
-                        className="d-block w-100 opacity-100"
-                        src={bull2}
+                        className="d-block w-100"
+                        src="https://images.unsplash.com/photo-1558980663-3685c1d673c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmxhY2slMjBtb3RvcmN5Y2xlJTIwcmlkZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                         alt="Second slide"
                     />
 
-                    <Carousel.Caption className="text-black">
-                        <h3 className="text-3xl font-black">Anjuli Automobiles Pvt. Ltd</h3>
+                    <Carousel.Caption className="text-white">
+                        <h3 className="text-3xl font-bold">Anjuli Automobiles Pvt. Ltd</h3>
                         <p className="text-lg">Made like a gun, goes like a bullet.</p>
                     </Carousel.Caption>
+                    {/* <div className="absolute top-0 left-0 bg-[rgba(0,0,0,0.8)]"></div> */}
                 </Carousel.Item>
 
-                <Carousel.Item className="mt-[15px]">
+                <Carousel.Item className="mt-[25px]">
                     <img
-                        className="d-block w-100 opacity-100"
-                        src={bull4}
+                        className="d-block w-100"
+                        src="https://images.unsplash.com/photo-1581661677546-13d490186195?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGJsYWNrJTIwbW90b3JjeWNsZSUyMHJpZGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption className="text-black">
-                        <h3 className="text-3xl font-black">Anjuli Automobiles Pvt. Ltd</h3>
+                    <Carousel.Caption className="text-white">
+                        <h3 className="text-3xl font-bold">Anjuli Automobiles Pvt. Ltd</h3>
                         <p className="text-lg">Made like a gun, goes like a bullet.</p>
                     </Carousel.Caption>
                 </Carousel.Item>

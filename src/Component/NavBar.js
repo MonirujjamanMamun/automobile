@@ -29,17 +29,13 @@ const NavBar = () => {
 
             <div className="navbar-end w-full">
                 <div>
-                    <label tabIndex="1" for="my-drawer-2" className="btn btn-ghost lg:hidden">
+                    <label tabIndex="1" for="my-drawer-2" className="btn btn-ghost ">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                 </div>
                 <div className="hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
                         {menuItem}
-                        {/* <li><Link className='font-bold text-lg text-white' to='/'>HOME</Link></li>
-                        <li><Link className='font-bold text-lg text-white' to='/shop'>SHOP</Link></li>
-                        <li><Link className='font-bold text-lg text-white' to='/news'>NEWS</Link></li>
-                        <li><Link className='font-bold text-lg text-white' to='/contact'>CONTACT</Link></li> */}
                     </ul>
                 </div>
             </div>
