@@ -10,6 +10,7 @@ import NavBar from './Component/NavBar';
 import Animation from './Component/Animation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 AOS.init();
 

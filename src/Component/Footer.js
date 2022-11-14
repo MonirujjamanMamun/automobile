@@ -13,24 +13,24 @@ const Footer = () => {
                 </div>
                 <div className='sm:mx-auto'>
                     <span className="text-lg text-white uppercase font-black">Services</span>
-                    <Link to={'#'} className="">ONLINE BOOKING</Link>
-                    <Link to={'#'}>REFUNDABLE BOOKING AMOUNT</Link>
-                    <Link to={'#'}>HOME BOOKING & DELIVER</Link>
-                    <Link to={'#'}>PICK UP & DROP FACILITY</Link>
-                    <Link to={'#'}>FREE TEST RIDE AT HOME</Link>
+                    <Link to={'#'} className="text-white uppercase decoration-neutral">ONLINE BOOKING</Link>
+                    <Link to={'#'} className="text-white uppercase decoration-neutral">REFUNDABLE BOOKING AMOUNT</Link>
+                    <Link to={'#'} className="text-white uppercase decoration-neutral">HOME BOOKING & DELIVER</Link>
+                    <Link to={'#'} className="text-white uppercase decoration-neutral">PICK UP & DROP FACILITY</Link>
+                    <Link to={'#'} className="text-white uppercase decoration-neutral">FREE TEST RIDE AT HOME</Link>
                 </div>
                 <div>
                     <span className="text-lg text-white uppercase font-black">Company</span>
-                    <Link to={'/shop'}>SHOP</Link >
-                    <Link to={'/news'}>NEWS</Link>
-                    <Link to={'/contact'}>CONTACT</Link>
+                    <Link className="text-white uppercase decoration-neutral" to={'/shop'}>SHOP</Link >
+                    <Link className="text-white uppercase decoration-neutral" to={'/news'}>NEWS</Link>
+                    <Link className="text-white uppercase decoration-neutral" to={'/contact'}>CONTACT</Link>
 
                 </div>
                 <div>
                     <span className="text-lg text-white uppercase font-black">Legal</span>
-                    <Link to={'#'}>TERMS OF USE</Link>
-                    <Link to={'#'}>PRIVACY POLICY</Link>
-                    <Link to={'#'}>COOKIE POLICY</Link>
+                    <Link className="text-white uppercase decoration-neutral" to={'#'}>TERMS OF USE</Link>
+                    <Link className="text-white uppercase decoration-neutral" to={'#'}>PRIVACY POLICY</Link>
+                    <Link className="text-white uppercase decoration-neutral" to={'#'}>COOKIE POLICY</Link>
                 </div>
 
             </footer>

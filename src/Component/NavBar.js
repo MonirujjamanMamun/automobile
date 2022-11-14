@@ -12,18 +12,18 @@ const NavBar = () => {
         </>
 
     return (
-        <div className="navbar py-5 bg-[#20262f]">
+        <div className="navbar py-[1.25rem] bg-[#20262f] flex-nowrap mt-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     {/* <label tabIndex="0" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label> */}
-                    <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box">
+                    <ul tabIndex="0" className="menu menu-compact dropdown-content mt-[0.75rem] p-[0.5rem] shadow rounded-box">
                         {menuItem}
                     </ul>
                 </div>
                 <Link to='/' className="btn btn-ghost normal-case text-xl">
-                    <img className='w-16 md:w-15 lg:w-15' src='https://www.anjuliroyalenfield.com/logoo.jpeg' alt='logo' />
+                    <img className='w-16 md:w-15 lg:w-15 p-[4px]' src='https://www.anjuliroyalenfield.com/logoo.jpeg' alt='logo' />
                 </Link>
             </div>
 
