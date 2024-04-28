@@ -12,6 +12,7 @@ import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
+import Footer from './Component/Footer';
 
 AOS.init();
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="*" element={<DataNotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

@@ -3,6 +3,7 @@ import bull1 from '../images/bull1.png';
 import bull2 from '../images/bull2.png';
 import bull4 from '../images/bull4.png';
 import bull5 from '../images/bull5.png';
+import logo from '../images/logo-red.jpg';
 
 const OurProducts = () => {
   return (
@@ -16,11 +17,7 @@ const OurProducts = () => {
         <div></div>
         <div></div>
         <div className="my-16 border-b-8 rounded-b-3xl border-gray-400">
-          <img
-            className="mx-auto"
-            width={130}
-            src="https://www.anjuliroyalenfield.com/logoo.jpeg"
-          />
+          <img className="mx-auto" width={130} src={logo} alt="logo" />
           <h1 className="text-3xl text-black font-bold mt-2 mb-4">
             Our Products
           </h1>
@@ -53,7 +50,7 @@ const OurProducts = () => {
           data-aos-duration="3000"
           className="bg-white text-center rounded-md text-black p-9 border-b-8 border-gray-400"
         >
-          <img className="mx-auto p-3 my-3" src={bull2} />
+          <img className="mx-auto p-3 my-3" src={bull2} alt="bull2" />
           <h3 className="text-2xl mb-2 font-bold">Royal Enfield Bullet 350X</h3>
           <p>
             Royal Enfield is one of the oldest surviving motorcycle
@@ -66,7 +63,7 @@ const OurProducts = () => {
           data-aos-duration="3000"
           className="bg-white text-center rounded-md text-black p-3 border-b-8 border-gray-400"
         >
-          <img className="mx-auto p-3 my-3" src={bull4} />
+          <img className="mx-auto p-3 my-3" src={bull4} alt="bull4" />
           <h3 className="text-2xl mb-2 font-bold">Royal Enfield roars</h3>
           <p>
             Royal Enfield is one of the oldest surviving motorcycle
@@ -79,7 +76,7 @@ const OurProducts = () => {
           data-aos-duration="3000"
           className="bg-gray-100 text-center rounded-md text-black p-3"
         >
-          <img className="mx-auto p-3 my-3" src={bull5} />
+          <img className="mx-auto p-3 my-3" src={bull5} alt="bull5" />
           <h3 className="text-2xl mb-2 font-bold">Royal Enfield Gray</h3>
           <p>
             Royal Enfield is one of the oldest surviving motorcycle

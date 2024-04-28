@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Login = () => {
   return (
     <div className="w-full max-w-md p-8 space-y-3 rounded-xl border bg-white   font-sans mx-auto my-4">
-      <h1 className="text-3xl font-bold text-center text-indigo-600 uppercase">
+      <h1 className="text-3xl font-bold text-center text-gray-500 uppercase">
         Log in
       </h1>
       {/* Input fields and the form started */}
