@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
@@ -11,6 +10,8 @@ import Animation from './Component/Animation';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
 
 AOS.init();
 
@@ -20,11 +21,13 @@ function App() {
       <Animation />
       <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/shop' element={<Shop />} />
-        <Route path='/news' element={<News />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='*' element={<DataNotFound />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="*" element={<DataNotFound />} />
       </Routes>
     </>
   );
